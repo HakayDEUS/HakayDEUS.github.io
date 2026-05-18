@@ -1,0 +1,46 @@
+/*  */
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+body {
+    font-family:"Inter", 'Courier New', Courier, monospace ;
+    margin: 0;
+}
+.portada h1 {
+    color: yellow;
+    font-size: 64px;
+    text-align: center;
+    font-weight: 700;
+}
+.portada {
+    padding: 8rem;
+    background-image: url(img/miami.png);
+    background-position: center;
+}
+.texto {
+    background-color:#a4ffff ;
+    padding: 80px;
+    line-height: 1.4;
+}
+.texto h2{
+    font-size: 32px;
+}
+.contenedor {
+    max-width: 900px;
+    margin: 0  auto;
+}
+ol {
+    padding-left: 40px;
+}
+
+.contenedor a {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    display:inline-block;
+}
+
+
